@@ -1,0 +1,20 @@
+version: 2
+
+sources:
+  - name: erp_adventure_works
+    description: Sistema de dados de vendas da Adventure Works.
+    database: FEA24_9 
+    schema: RAW_ADVENTURE_WORKS
+    tables:
+      - name: SALESORDERDETAIL
+        description: Tabela de fatos com informações de vendas.
+      - name: PRODUCT
+        description: Tabela de dimensão com informações dos produtos.
+      - name: PERSON
+        description: Tabela de dimensão com informações dos clientes.
+      - name: PERSONCREDITCARD
+        description: Tabela de dimensão com informações de cartões de crédito.
+      - name: SALESREASON
+        description: Tabela de dimensão com motivos das vendas.
+      - name: ADDRESS
+        description: Tabela com endereços dos clientes.
